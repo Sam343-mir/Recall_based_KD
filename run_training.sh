@@ -1,6 +1,6 @@
 
 
-python training_v2.py \
+python training.py \
   --old_tiles_dir /path/to/old_tiles \
   --new_tiles_dir /path/to/new_tiles \
   --val_tiles_dir /path/to/val_tiles \
