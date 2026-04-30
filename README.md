@@ -1,6 +1,7 @@
-# Recall‑Based Knowledge Distillation for Incremental Segmentation Training (User Guide)
+# Recall‑Based Knowledge Distillation for Incremental Segmentation Training
 
-This repository trains an incremental **segmentation** model while reducing **catastrophic forgetting** using a *Recall‑based Knowledge Distillation (KD)* strategy.
+This repository trains an incremental **segmentation** model while reducing **catastrophic forgetting** using a *Recall-based Knowledge Distillation (KD)* strategy proposed in the following paper:  
+[Recall-based Knowledge Distillation for Data Distribution Based Catastrophic Forgetting in Semantic Segmentation](https://link.springer.com/chapter/10.1007/978-3-031-78347-0_7)
 
 In each incremental step, the model is trained on:
 - **New tiles** (current domain/task), and
